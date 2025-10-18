@@ -2,6 +2,8 @@
 
 This project implements sentiment analysis on IMDB movie reviews using various machine learning and deep learning approaches. The system analyzes movie reviews and classifies them as either positive or negative.
 
+🚀 **Try it out**: [Live Demo](https://garvitmoviereview.streamlit.app/)
+
 ## Project Overview
 
 The project uses the IMDB dataset containing 50,000 movie reviews labeled as positive or negative. We've implemented multiple models and compared their performances to find the best approach for sentiment classification.
@@ -103,7 +105,11 @@ To retrain the models:
 
 ## Web Application
 
-The project includes a Streamlit web application that allows users to input movie reviews and get real-time sentiment predictions. Here are some screenshots of the application in action:
+The project includes a Streamlit web application that allows users to input movie reviews and get real-time sentiment predictions. The application is live and can be accessed at:
+
+🌐 **[https://garvitmoviereview.streamlit.app/](https://garvitmoviereview.streamlit.app/)**
+
+Here are some screenshots of the application in action:
 
 ### Main Interface
 ![Main Interface](images/mainui.png)
