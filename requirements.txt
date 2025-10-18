@@ -1,0 +1,13 @@
+kagglehub
+pandas
+numpy
+cleantext
+nltk
+textblob
+spacy
+scikit-learn
+gensim
+tensorflow
+seaborn
+matplotlib
+joblib
