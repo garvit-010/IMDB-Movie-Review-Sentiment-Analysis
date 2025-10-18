@@ -3,8 +3,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import joblib
 
-model = load_model(r"D:\Projects\IMDB-Movie-Review-Sentiment-Analysis\Analysis\lstm_w2v_model.keras")
-tokenizer = joblib.load(r"D:\Projects\IMDB-Movie-Review-Sentiment-Analysis\Analysis\tokenizer.pkl")
+model = load_model(r"Analysis/lstm_w2v_model.keras")
+tokenizer = joblib.load(r"Analysis/tokenizer.pkl")
 
 st.title("🎬 Movie Review Sentiment Analysis")
 st.write("Enter a movie review below to predict sentiment.")
